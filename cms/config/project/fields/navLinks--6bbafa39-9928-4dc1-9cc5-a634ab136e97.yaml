@@ -1,0 +1,30 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 8453e884-4560-4da7-82f8-fa5ade3471ae # Common
+handle: navLinks
+instructions: null
+name: 'Nav Links'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 712898845
+  columns:
+    __assoc__:
+      -
+        - 967a6f74-a578-4d78-bce6-57b7327398a5 # Nav link
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_navlinks}}'
+  fieldLayout: matrix
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

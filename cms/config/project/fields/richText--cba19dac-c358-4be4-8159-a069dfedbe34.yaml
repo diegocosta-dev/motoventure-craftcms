@@ -1,0 +1,27 @@
+columnSuffix: sgrmfekt
+contentColumnType: text
+fieldGroup: 8453e884-4560-4da7-82f8-fa5ade3471ae # Common
+handle: richText
+instructions: null
+name: 'Rich Text'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: 647652f4-ff48-40b9-97d7-0ce08b2277cb # Rich Text
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: RichText.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

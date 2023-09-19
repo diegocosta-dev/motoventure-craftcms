@@ -1,0 +1,61 @@
+fieldLayouts:
+  92f13ad1-1621-4e14-b860-f41bfba9c139:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d259b47d-2e81-4d27-ad86-60729581e702
+            userCondition: null
+            warning: null
+            width: 100
+        name: Conteúdo
+        uid: a86cd30e-62dc-4025-ba34-bffd1a18febe
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 09c3b851-852b-4586-964f-dbd3b555486a # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1b2c1ae3-fb53-4803-9e05-e2dee014f034
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: aa040174-c0e9-41e0-ac02-47b4aa4a0c3e
+        userCondition: null
+handle: stories
+hasTitleField: false
+name: Stories
+section: f89b5a80-c3fd-4f0c-859a-3cf2a420808c # Stories
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

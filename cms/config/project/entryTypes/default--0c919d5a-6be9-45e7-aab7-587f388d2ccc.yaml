@@ -1,0 +1,100 @@
+fieldLayouts:
+  a3adab86-f02f-4ab9-884d-6071bd964be9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d5440a41-1f8f-48c2-b633-3a439e3267d3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dbd74411-67c5-4184-97b1-46df81e972a5 # Short Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc697ac3-69c0-4ec1-9bb5-f80def079c74
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cba19dac-c358-4be4-8159-a069dfedbe34 # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d0ee66c-71e0-4177-8396-fbf5499dd9a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 597daad4-c463-4960-829f-38cb38929484 # Book Table
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e277903-56d4-4a3f-8fd9-3ab8408d0e3a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Conteúdo
+        uid: d2105ffc-28a1-4504-b4a5-1e7e29a0679a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 09c3b851-852b-4586-964f-dbd3b555486a # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ef21b62-970f-412b-b23a-01a577a1f7d4
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 3a514b3f-dc47-46f2-b6a9-4e956ff1957d
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Padrão
+section: 1326550a-0e27-478b-aacc-7e948e79bd7c #  General Pages
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,61 @@
+{% extends "_layouts/_html_layout" %}
+
+{% do craft.app.elements.eagerLoadElements(
+  className(entry),
+  [entry],
+  [
+    'heroImage',
+    'featuredStory',
+    'featuredStory.photos',
+    'riders',
+    'riders.coverPicture',
+  ]
+) %}
+
+{% block bodyTag %}
+  <body class="home-page">
+{% endblock %}
+
+{% block content %}
+  {% cache using key "home-page" %}  
+    {% set backgroundImage = entry.heroImage|first|default(null) %}
+
+    {% set heroTransform = {
+      mode: 'fit',
+      width: 1400,
+      height: 900,
+      quality:  80,
+    } %}
+
+    <section class="hero" style="background-image: url('{{ backgroundImage.getUrl(heroTransform)|default(null) }}')">
+      <div class="hero__content content-column">
+        <h1>{{ entry.heroTitle }}</h1>
+      </div>
+    </section>
+
+    {% set featuredStories = entry.featuredStory|first|default(null) %}
+
+    {% if not featuredStories %}
+      {% set featuredStories = craft.entries({section: 'storiesEntries', with: ['photos']})|first|default(null) %}
+    {% endif %}
+    
+    {% if featuredStories %}
+      {{ include('_components/_featuredStory', {
+        story: featuredStories
+      }) }}
+    {% endif %}
+    
+    <section class="section section--more-padding section--light section--angled-top">
+      <div class="content-column centered">
+
+        {{ entry.riderIntroContent|raw }}
+
+        {% set riders = entry.riders|default(null) %}
+        
+        {{ include('_components/_rides', {
+          riders: riders
+        }) }}
+      </div>
+    </section>
+  {% endcache %}
+{% endblock %}

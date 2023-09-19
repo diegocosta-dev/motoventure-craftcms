@@ -1,0 +1,19 @@
+columnSuffix: vorhitpq
+contentColumnType: text
+fieldGroup: 9985eef0-ea95-463a-bd49-febfca506398 # Stories
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

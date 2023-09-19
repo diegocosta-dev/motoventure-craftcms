@@ -1,0 +1,33 @@
+{% extends "_layouts/_html_layout" %}
+
+{% block content %}
+  {% cache using key "generalPage" %}  
+    <article class="section">
+      <div class="content-column content-column--narrow">
+
+        <h1 class="centered">{{ entry.title }}</h1>
+        
+        {% set richText = entry.richText|default(null) %}
+        {% if richText %}
+          {{ entry.richText|raw }}
+        {% endif %}
+        
+
+        {% set parents = entry.children.all()|default(null) %}
+
+        {% if parents %}
+          <div class="parents">
+            {% for node in parents %}
+              <div class="grid">
+                <h3>{{ node.title }}</h3>
+                <p>{{ node.shortDescription }}</p>
+                <a class="button" href="{{ node.url }}">
+                  Read More
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+    </article>
+  {% endcache %}
+{% endblock %}

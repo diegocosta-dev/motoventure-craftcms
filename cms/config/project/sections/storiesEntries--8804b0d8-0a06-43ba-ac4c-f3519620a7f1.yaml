@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storiesEntries
+name: 'Stories Entries'
+propagationMethod: all
+siteSettings:
+  76a75fc6-8c40-4333-989c-011cf6610338: # motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_stories/_entry
+    uriFormat: 'stories/{slug}'
+type: channel

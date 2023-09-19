@@ -1,0 +1,79 @@
+fieldLayouts:
+  96198933-b23e-4762-9f92-15e0f0140edc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 64c482de-663d-48bf-9f91-e12ab380d0ec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9f48cf7f-f1ba-4a44-8682-1f332c8fd19b # Photos
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03bdd7d4-50fc-4430-a1ff-cedf75ad11f4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cba19dac-c358-4be4-8159-a069dfedbe34 # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 771a8d73-1ad1-4744-9540-81fc19b7e83e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dbd74411-67c5-4184-97b1-46df81e972a5 # Short Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6046402-16e7-4df8-9aff-b026154ac925
+            userCondition: null
+            warning: null
+            width: 100
+        name: Conteúdo
+        uid: 526a625d-2f01-4c79-84b3-16d5b5d9cf33
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Padrão
+section: 8804b0d8-0a06-43ba-ac4c-f3519620a7f1 # Stories Entries
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

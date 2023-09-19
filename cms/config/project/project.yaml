@@ -1,0 +1,190 @@
+dateModified: 1695065490
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: singles
+      tableAttributes:
+        - link
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:1326550a-0e27-478b-aacc-7e948e79bd7c' #  General Pages
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Content
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:8804b0d8-0a06-43ba-ac4c-f3519620a7f1' # Stories Entries
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:2c669fab-ccd9-42d6-807e-382feebc7214' # Riders
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+      type: native
+email:
+  fromEmail: troiablender@gmail.com
+  fromName: motoventure
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  mainUpload:
+    hasUrls: true
+    name: 'Main Upload'
+    settings:
+      path: $ASSETS_ROOT
+    type: craft\fs\Local
+    url: $ASSETS_URL
+meta:
+  __names__:
+    0c919d5a-6be9-45e7-aab7-587f388d2ccc: Padrão # Padrão
+    0f37ec69-5c9e-45ab-a390-2b5fbc023327: 'Hero Title' # Hero Title
+    0fba9e62-ad20-4697-bc29-442d80712da8: 'Home Page' # Home Page
+    1d305927-0674-4ef6-b1b1-9aced977ce45: Riders # Riders
+    2c669fab-ccd9-42d6-807e-382feebc7214: Riders # Riders
+    4b12745c-d62f-4cc8-8393-64a9aa89c6fe: 'Nav text' # Nav text
+    6bbafa39-9928-4dc1-9cc5-a634ab136e97: 'Nav Links' # Nav Links
+    8a477582-5e07-4114-86cd-e8587d3ea322: upload # upload
+    09c3b851-852b-4586-964f-dbd3b555486a: SEO # SEO
+    9f48cf7f-f1ba-4a44-8682-1f332c8fd19b: Photos # Photos
+    49a967a3-3f73-4b00-b40f-cd0690c26995: 'Cover Picture' # Cover Picture
+    73eb2e01-e42b-4f73-a85e-c615e11b7a0b: Padrão # Padrão
+    76a75fc6-8c40-4333-989c-011cf6610338: motoventure # motoventure
+    81bc2d6f-ff71-4b55-be41-57374c30ae4f: 'Featured Story' # Featured Story
+    597daad4-c463-4960-829f-38cb38929484: 'Book Table' # Book Table
+    915a01f3-57f4-4561-b19f-1c31d2d184df: 'Home Page' # Home Page
+    967a6f74-a578-4d78-bce6-57b7327398a5: 'Nav link' # Nav link
+    2324f4d4-a206-4159-896c-053100aacc6c: 'Hero Image' # Hero Image
+    8453e884-4560-4da7-82f8-fa5ade3471ae: Common # Common
+    8804b0d8-0a06-43ba-ac4c-f3519620a7f1: 'Stories Entries' # Stories Entries
+    9985eef0-ea95-463a-bd49-febfca506398: Stories # Stories
+    471209ac-712c-4707-ae5d-e68b32ca7ddb: 'Rider Intro Content' # Rider Intro Content
+    473654fb-4a7c-43a4-b3de-1d07dc672412: 'Home Page' # Home Page
+    647652f4-ff48-40b9-97d7-0ce08b2277cb: 'Rich Text' # Rich Text
+    1326550a-0e27-478b-aacc-7e948e79bd7c: ' General Pages' #  General Pages
+    bbdfcc10-6958-4dfd-89c8-56e237c138c5: 'Rider Description' # Rider Description
+    cba19dac-c358-4be4-8159-a069dfedbe34: 'Rich Text' # Rich Text
+    cd3bfdd9-1222-4865-a07b-eef3ece6831d: motoventure # motoventure
+    d9fa1dc5-0cb0-47c9-aad8-ce8778f4155a: Stories # Stories
+    dbd74411-67c5-4184-97b1-46df81e972a5: 'Short Description' # Short Description
+    f6e789c2-20c4-4fcf-a878-31340b3856ad: Padrão # Padrão
+    f30b23fa-e511-4275-99f6-74a170d032c1: 'Header Nav' # Header Nav
+    f89b5a80-c3fd-4f0c-859a-3cf2a420808c: Stories # Stories
+plugins:
+  blitz-recommendations:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+    settings:
+      description: 'Maecenas sed enim ut sem viverra aliquet eget sit amet. Malesuada fames ac turpis egestas integer. Aliquet lectus proin nibh nisl condimentum id venenatis. Amet'
+      facebookAppId: diego.z1
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage:
+        - '56'
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title}'
+        -
+          __assoc__:
+            -
+              - key
+              - '2'
+            -
+              - locked
+              - '1'
+            -
+              - template
+              - ' | {{ siteName }}'
+      titleSuffix: null
+      twitterHandle: ''
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: motoventure
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

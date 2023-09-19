@@ -1,0 +1,67 @@
+fieldLayouts:
+  e5f9c010-e45c-4cb6-a923-055fbc3382c4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f0d577c8-6526-4514-a698-8e274efccd7d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 49a967a3-3f73-4b00-b40f-cd0690c26995 # Cover Picture
+            instructions: null
+            label: Picture
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4a25db8-832f-4331-ab4a-ee8d9df6e6da
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bbdfcc10-6958-4dfd-89c8-56e237c138c5 # Rider Description
+            instructions: null
+            label: Description
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1f0e968-564f-4e4f-adf4-3c7e8a23b049
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1528c388-1fd8-4152-a482-18f7479f095a
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Padrão
+section: 2c669fab-ccd9-42d6-807e-382feebc7214 # Riders
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

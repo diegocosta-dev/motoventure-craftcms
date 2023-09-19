@@ -1,0 +1,20 @@
+{% extends "_layouts/_html_layout" %}
+
+{% block content %}
+  {% cache using key "storyDetail" %}  
+    <article class="section">
+      <div class="content-column content-column--narrow">
+
+        <h1 class="centered">{{ entry.title }}</h1>
+
+        {{ include('_components/_slider', {
+          pictures: entry.photos.all()|default(null)
+        }) }}
+
+        {% if entry.richText %}
+          {{ entry.richText|raw }}
+        {% endif %}      
+      </div>
+    </article>
+  {% endcache %}
+{% endblock %}

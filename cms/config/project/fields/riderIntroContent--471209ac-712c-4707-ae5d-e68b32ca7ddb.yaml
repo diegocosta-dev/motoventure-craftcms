@@ -1,0 +1,27 @@
+columnSuffix: rcqzsktr
+contentColumnType: text
+fieldGroup: 473654fb-4a7c-43a4-b3de-1d07dc672412 # Home Page
+handle: riderIntroContent
+instructions: null
+name: 'Rider Intro Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: RichText.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

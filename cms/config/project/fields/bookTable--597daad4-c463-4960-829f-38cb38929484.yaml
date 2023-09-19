@@ -1,0 +1,83 @@
+columnSuffix: qdvxxcfu
+contentColumnType: text
+fieldGroup: 8453e884-4560-4da7-82f8-fa5ade3471ae # Common
+handle: bookTable
+instructions: null
+name: 'Book Table'
+searchable: true
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - ''
+            -
+              - handle
+              - heading
+            -
+              - width
+              - ''
+            -
+              - type
+              - heading
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - ''
+            -
+              - handle
+              - fact
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - Author
+        -
+          - col2
+          - ''
+    -
+      __assoc__:
+        -
+          - col1
+          - Publisher
+        -
+          - col2
+          - ''
+    -
+      __assoc__:
+        -
+          - col1
+          - Pages
+        -
+          - col2
+          - ''
+    -
+      __assoc__:
+        -
+          - col1
+          - 'Publication Date'
+        -
+          - col2
+          - ''
+  maxRows: null
+  minRows: null
+  staticRows: true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

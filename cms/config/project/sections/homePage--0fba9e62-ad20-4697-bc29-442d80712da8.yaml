@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homePage
+name: 'Home Page'
+propagationMethod: all
+siteSettings:
+  76a75fc6-8c40-4333-989c-011cf6610338: # motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/_home.twig
+    uriFormat: __home__
+type: single

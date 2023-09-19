@@ -1,0 +1,127 @@
+fieldLayouts:
+  e67ff1ac-b7e4-4678-9310-c9a58a84bc22:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 33796bd5-b20f-4b04-8aac-c10e4bc433c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0f37ec69-5c9e-45ab-a390-2b5fbc023327 # Hero Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0aa172c9-c3e2-4f74-88b4-293736c5e512
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2324f4d4-a206-4159-896c-053100aacc6c # Hero Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a8319be-8811-462e-93fa-8f33966801b4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 81bc2d6f-ff71-4b55-be41-57374c30ae4f # Featured Story
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 97032529-0144-4796-9819-799cfc0728bd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: 38b46723-6c35-4155-807c-2c666b2b87f3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 471209ac-712c-4707-ae5d-e68b32ca7ddb # Rider Intro Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ea6a68f-9c2d-4ac2-8768-35f9838f5966
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1d305927-0674-4ef6-b1b1-9aced977ce45 # Riders
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80860ee6-c0e7-483b-9b0d-df0cfbc0ce3a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Riders
+        uid: 24360b3d-bd45-41f0-90f7-0307a837bafc
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 09c3b851-852b-4586-964f-dbd3b555486a # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ea3afe6-b618-4fd4-bdfa-44bd7b484a50
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 6f236da8-e9b7-431f-91fd-074ec35544ff
+        userCondition: null
+handle: homePage
+hasTitleField: false
+name: 'Home Page'
+section: 0fba9e62-ad20-4697-bc29-442d80712da8 # Home Page
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

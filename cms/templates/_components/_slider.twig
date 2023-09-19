@@ -1,0 +1,32 @@
+{% if pictures is defined and pictures %}
+  <div class="slider">
+    <div class="slider__nav">
+      <button type="button" class="slider__prev">
+        <img src="{{ siteUrl }}static/images/arrow-prev.svg" alt="Previous">
+      </button>
+      <button type="button" class="slider__next">
+        <img src="{{ siteUrl }}static/images/arrow-next.svg" alt="Next">
+      </button>
+    </div>
+    
+    <div class="slider__reel">
+      {% for picture in pictures %}
+        {% do picture.setTransform({
+          mode: 'fit',
+          width: 430,
+          height: 285,
+          quality: 80,
+        }) %}
+
+        {{ tag('img', {
+          src: picture.url,
+          width: picture.width,
+          height: picture.height,
+          srcset: picture.getSrcset(['1x', '2x', '2.5x']),
+          class: 'slider__image',
+          alt: picture.title|default('slider image'),
+        }) }}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
